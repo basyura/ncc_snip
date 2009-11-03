@@ -20,7 +20,7 @@ prev_word   '^'
 snippet bl
 abbr    >> <<
 prev_word   '^'
-    >${1}>
+    >>
     ${2}
     <<
 
@@ -32,3 +32,13 @@ snippet     day
 abbr        *[日記]
 prev_word   '^'
     *[日記] ${1}
+
+snippet     title
+abbr        *[ ]
+prev_word   '^'
+    *[${1}] ${2}
+
+snippet     book
+abbr        *[読書]
+prev_word   '^'
+    *[読書] ${1}
