@@ -12,12 +12,18 @@ abbr    ★★★★
     
 snippet pre
 abbr    >|| ||<
-    >|${1}|
-    ${2}
+prev_word   '^'
+    >||
+    
     ||<
 
 snippet bl
 abbr    >> <<
+prev_word   '^'
     >${1}>
     ${2}
     <<
+snippet     day
+abbr        *[日記]
+prev_word   '^'
+    *[日記] ${1}
